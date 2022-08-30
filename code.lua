@@ -521,7 +521,7 @@ Splash.Active = true
 Splash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Splash.Position = UDim2.new(0, 1, 0, -1)
 Splash.Size = UDim2.new(0, 492, 0, 283)
-Splash.Visible = false
+Splash.Visible = true
 
 UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
 UIGradient_16.Parent = Splash
