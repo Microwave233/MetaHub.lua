@@ -1,4 +1,4 @@
--- Gui to Lua
+-- MetaHub
 -- Version: 3.2
 
 -- Instances:
@@ -84,14 +84,19 @@ local TextLabel_4 = Instance.new("TextLabel")
 local UIGradient_14 = Instance.new("UIGradient")
 local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
-local Splash = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
 local UIGradient_15 = Instance.new("UIGradient")
 local UICorner_15 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local UIGradient_16 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
-local ImageLabel_2 = Instance.new("ImageLabel")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local Splash = Instance.new("Frame")
+local UIGradient_16 = Instance.new("UIGradient")
+local UICorner_16 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_17 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -227,6 +232,7 @@ PlayerScripts.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
 PlayerScripts.BorderSizePixel = 0
 PlayerScripts.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
 PlayerScripts.Size = UDim2.new(0, 324, 0, 199)
+PlayerScripts.Visible = false
 
 Wlk_input.Name = "Wlk_input"
 Wlk_input.Parent = PlayerScripts
@@ -392,10 +398,10 @@ UIAspectRatioConstraint_11.AspectRatio = 4.350
 Home.Name = "Home"
 Home.Parent = Fms
 Home.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Home.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Home.BorderSizePixel = 0
 Home.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
 Home.Size = UDim2.new(0, 324, 0, 199)
-Home.Visible = false
 
 TextLabel_3.Parent = Home
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
@@ -487,17 +493,40 @@ UITextSizeConstraint_12.MaxTextSize = 14
 UIAspectRatioConstraint_17.Parent = TextLabel_4
 UIAspectRatioConstraint_17.AspectRatio = 6.222
 
+TextButton_3.Parent = Home
+TextButton_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_3.Position = UDim2.new(0, 215, 0, 177)
+TextButton_3.Size = UDim2.new(0, 109, 0, 20)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Unload Meta"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 18.000
+TextButton_3.TextWrapped = true
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_15.Parent = TextButton_3
+
+UICorner_15.Parent = TextButton_3
+
+UIAspectRatioConstraint_18.Parent = TextButton_3
+UIAspectRatioConstraint_18.AspectRatio = 5.450
+
+UITextSizeConstraint_13.Parent = TextButton_3
+UITextSizeConstraint_13.MaxTextSize = 20
+
 Splash.Name = "Splash"
 Splash.Parent = Frame
 Splash.Active = true
 Splash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Splash.Position = UDim2.new(0, 1, 0, -1)
 Splash.Size = UDim2.new(0, 492, 0, 283)
+Splash.Visible = false
 
-UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_15.Parent = Splash
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_16.Parent = Splash
 
-UICorner_15.Parent = Splash
+UICorner_16.Parent = Splash
 
 TextLabel_5.Parent = Splash
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -510,11 +539,11 @@ TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
 TextLabel_5.TextWrapped = true
 
-UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_16.Parent = TextLabel_5
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_17.Parent = TextLabel_5
 
-UIAspectRatioConstraint_18.Parent = TextLabel_5
-UIAspectRatioConstraint_18.AspectRatio = 8.345
+UIAspectRatioConstraint_19.Parent = TextLabel_5
+UIAspectRatioConstraint_19.AspectRatio = 8.345
 
 ImageLabel_2.Parent = Splash
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -524,12 +553,12 @@ ImageLabel_2.Size = UDim2.new(0, 260, 0, 196)
 ImageLabel_2.Image = "rbxassetid://10753310375"
 ImageLabel_2.ScaleType = Enum.ScaleType.Fit
 
-UIAspectRatioConstraint_19.Parent = ImageLabel_2
-UIAspectRatioConstraint_19.AspectRatio = 1.327
+UIAspectRatioConstraint_20.Parent = ImageLabel_2
+UIAspectRatioConstraint_20.AspectRatio = 1.327
 
 -- Scripts:
 
-local function TOSK_fake_script() -- fullscreen.LocalScript 
+local function IODQEN_fake_script() -- fullscreen.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen)
 
 	local frame = script.Parent.Parent.Parent.Frame
@@ -541,8 +570,8 @@ local function TOSK_fake_script() -- fullscreen.LocalScript
 	frame.Visible = true
 	end)
 end
-coroutine.wrap(TOSK_fake_script)()
-local function IIZTM_fake_script() -- Frame.Dragify 
+coroutine.wrap(IODQEN_fake_script)()
+local function QJCF_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -585,8 +614,8 @@ local function IIZTM_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(IIZTM_fake_script)()
-local function ZSBGS_fake_script() -- fullscreen_exit.LocalScript 
+coroutine.wrap(QJCF_fake_script)()
+local function WRVGBF_fake_script() -- fullscreen_exit.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen_exit)
 
 	local frame = script.Parent.Parent
@@ -598,8 +627,8 @@ local function ZSBGS_fake_script() -- fullscreen_exit.LocalScript
 	frame.Visible = false
 	end)
 end
-coroutine.wrap(ZSBGS_fake_script)()
-local function BMFZY_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(WRVGBF_fake_script)()
+local function ZEYS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -612,8 +641,8 @@ local function BMFZY_fake_script() -- TextButton.LocalScript
 		
 	end)
 end
-coroutine.wrap(BMFZY_fake_script)()
-local function FDFK_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(ZEYS_fake_script)()
+local function YKVN_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -626,8 +655,8 @@ local function FDFK_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(FDFK_fake_script)()
-local function VIQE_fake_script() -- set_wlk.LocalScript 
+coroutine.wrap(YKVN_fake_script)()
+local function ABRPNH_fake_script() -- set_wlk.LocalScript 
 	local script = Instance.new('LocalScript', set_wlk)
 
 	local player = game.Players.LocalPlayer
@@ -639,8 +668,8 @@ local function VIQE_fake_script() -- set_wlk.LocalScript
 		humanoid.WalkSpeed = script.Parent.Parent.Wlk_input.Text
 	end)
 end
-coroutine.wrap(VIQE_fake_script)()
-local function QDOGV_fake_script() -- set_jmp.LocalScript 
+coroutine.wrap(ABRPNH_fake_script)()
+local function LMUH_fake_script() -- set_jmp.LocalScript 
 	local script = Instance.new('LocalScript', set_jmp)
 
 	local player = game.Players.LocalPlayer
@@ -652,8 +681,8 @@ local function QDOGV_fake_script() -- set_jmp.LocalScript
 		humanoid.JumpPower = script.Parent.Parent.jmp_input.Text
 	end)
 end
-coroutine.wrap(QDOGV_fake_script)()
-local function YICQXH_fake_script() -- tele_to_plr.LocalScript 
+coroutine.wrap(LMUH_fake_script)()
+local function HUXAX_fake_script() -- tele_to_plr.LocalScript 
 	local script = Instance.new('LocalScript', tele_to_plr)
 
 	local player = game.Players.LocalPlayer
@@ -661,11 +690,19 @@ local function YICQXH_fake_script() -- tele_to_plr.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		local otherplayer = script.Parent.Parent.Tele_input.Text
-		player.Character.Head.CFrame = workspace[otherplayer].Head.CFrame
+		if workspace:WaitForChild(otherplayer) then
+			if workspace[otherplayer]:WaitForChild("Head") then
+				player.Character.Head.CFrame = workspace[otherplayer].Head.CFrame
+			else
+				print("so no head?")
+			end
+		else
+			print("So no player?")
+		end
 	end)
 end
-coroutine.wrap(YICQXH_fake_script)()
-local function IIBQ_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(HUXAX_fake_script)()
+local function FEGD_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local img = script.Parent.ImageLabel
@@ -680,8 +717,18 @@ local function IIBQ_fake_script() -- Frame_3.LocalScript
 	
 	img.Image = content
 end
-coroutine.wrap(IIBQ_fake_script)()
-local function IWNXGEO_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(FEGD_fake_script)()
+local function IMXHL_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local gui = script.Parent.Parent.Parent.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		gui:Destroy()
+	end)
+end
+coroutine.wrap(IMXHL_fake_script)()
+local function JCSENE_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local plrname = game.Players.LocalPlayer
@@ -691,8 +738,8 @@ local function IWNXGEO_fake_script() -- TextLabel_5.LocalScript
 	
 	script.Parent.Text = "Welcome "..plrname.Name
 end
-coroutine.wrap(IWNXGEO_fake_script)()
-local function JDCLLDY_fake_script() -- Splash.LocalScript 
+coroutine.wrap(JCSENE_fake_script)()
+local function KTOB_fake_script() -- Splash.LocalScript 
 	local script = Instance.new('LocalScript', Splash)
 
 	local frame = script.Parent
@@ -708,4 +755,4 @@ local function JDCLLDY_fake_script() -- Splash.LocalScript
 	until frame.BackgroundTransparency >= 0.5
 	frame:Destroy()
 end
-coroutine.wrap(JDCLLDY_fake_script)()
+coroutine.wrap(KTOB_fake_script)()
