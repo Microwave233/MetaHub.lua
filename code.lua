@@ -1,4 +1,4 @@
--- MetaHub
+--MetaHub
 local ScreenGui = Instance.new("ScreenGui")
 local Openit = Instance.new("TextLabel")
 local fullscreen = Instance.new("ImageButton")
@@ -553,7 +553,7 @@ UIAspectRatioConstraint_20.AspectRatio = 1.327
 
 -- Scripts:
 
-local function UPXEDM_fake_script() -- fullscreen.LocalScript 
+local function WRRXIO_fake_script() -- fullscreen.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen)
 
 	local frame = script.Parent.Parent.Parent.Frame
@@ -565,8 +565,8 @@ local function UPXEDM_fake_script() -- fullscreen.LocalScript
 	frame.Visible = true
 	end)
 end
-coroutine.wrap(UPXEDM_fake_script)()
-local function SAZA_fake_script() -- Frame.Dragify 
+coroutine.wrap(WRRXIO_fake_script)()
+local function JHNTVN_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -609,8 +609,8 @@ local function SAZA_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(SAZA_fake_script)()
-local function EOBLWKU_fake_script() -- fullscreen_exit.LocalScript 
+coroutine.wrap(JHNTVN_fake_script)()
+local function EJCBPP_fake_script() -- fullscreen_exit.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen_exit)
 
 	local frame = script.Parent.Parent
@@ -622,8 +622,8 @@ local function EOBLWKU_fake_script() -- fullscreen_exit.LocalScript
 	frame.Visible = false
 	end)
 end
-coroutine.wrap(EOBLWKU_fake_script)()
-local function TBGBZ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(EJCBPP_fake_script)()
+local function VAMXZG_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -636,8 +636,8 @@ local function TBGBZ_fake_script() -- TextButton.LocalScript
 		
 	end)
 end
-coroutine.wrap(TBGBZ_fake_script)()
-local function APUYZO_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(VAMXZG_fake_script)()
+local function DWHL_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -650,8 +650,8 @@ local function APUYZO_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(APUYZO_fake_script)()
-local function NCLG_fake_script() -- set_wlk.LocalScript 
+coroutine.wrap(DWHL_fake_script)()
+local function IEOL_fake_script() -- set_wlk.LocalScript 
 	local script = Instance.new('LocalScript', set_wlk)
 
 	local player = game.Players.LocalPlayer
@@ -663,8 +663,8 @@ local function NCLG_fake_script() -- set_wlk.LocalScript
 		humanoid.WalkSpeed = script.Parent.Parent.Wlk_input.Text
 	end)
 end
-coroutine.wrap(NCLG_fake_script)()
-local function FHTH_fake_script() -- set_jmp.LocalScript 
+coroutine.wrap(IEOL_fake_script)()
+local function FBETLW_fake_script() -- set_jmp.LocalScript 
 	local script = Instance.new('LocalScript', set_jmp)
 
 	local player = game.Players.LocalPlayer
@@ -676,8 +676,8 @@ local function FHTH_fake_script() -- set_jmp.LocalScript
 		humanoid.JumpPower = script.Parent.Parent.jmp_input.Text
 	end)
 end
-coroutine.wrap(FHTH_fake_script)()
-local function MTTEYKV_fake_script() -- tele_to_plr.LocalScript 
+coroutine.wrap(FBETLW_fake_script)()
+local function CVGU_fake_script() -- tele_to_plr.LocalScript 
 	local script = Instance.new('LocalScript', tele_to_plr)
 
 	local player = game.Players.LocalPlayer
@@ -687,7 +687,7 @@ local function MTTEYKV_fake_script() -- tele_to_plr.LocalScript
 		local otherplayer = script.Parent.Parent.Tele_input.Text
 		if workspace:WaitForChild(otherplayer) then
 			if workspace[otherplayer]:WaitForChild("Head") then
-				player.Character.Head.CFrame = workspace[otherplayer].Head.CFrame
+				player.Character.HumanoidRootPart:PivotTo(workspace[otherplayer].HumanoidRootPart.CFrame)
 			else
 				print("so no head?")
 			end
@@ -696,8 +696,8 @@ local function MTTEYKV_fake_script() -- tele_to_plr.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MTTEYKV_fake_script)()
-local function WSZU_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(CVGU_fake_script)()
+local function FIZGE_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local img = script.Parent.ImageLabel
@@ -712,8 +712,8 @@ local function WSZU_fake_script() -- Frame_3.LocalScript
 	
 	img.Image = content
 end
-coroutine.wrap(WSZU_fake_script)()
-local function DXGGH_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(FIZGE_fake_script)()
+local function QHAD_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
@@ -722,8 +722,8 @@ local function DXGGH_fake_script() -- TextButton_3.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(DXGGH_fake_script)()
-local function IJKRO_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(QHAD_fake_script)()
+local function AFLZS_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local plrname = game.Players.LocalPlayer
@@ -733,8 +733,8 @@ local function IJKRO_fake_script() -- TextLabel_5.LocalScript
 	
 	script.Parent.Text = "Welcome "..plrname.Name
 end
-coroutine.wrap(IJKRO_fake_script)()
-local function WFCY_fake_script() -- Splash.LocalScript 
+coroutine.wrap(AFLZS_fake_script)()
+local function DDJA_fake_script() -- Splash.LocalScript 
 	local script = Instance.new('LocalScript', Splash)
 
 	local frame = script.Parent
@@ -750,4 +750,4 @@ local function WFCY_fake_script() -- Splash.LocalScript
 	until frame.BackgroundTransparency >= 0.5
 	frame:Destroy()
 end
-coroutine.wrap(WFCY_fake_script)()
+coroutine.wrap(DDJA_fake_script)()
