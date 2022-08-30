@@ -1,8 +1,4 @@
 -- MetaHub
--- Version: 3.2
-
--- Instances:
-
 local ScreenGui = Instance.new("ScreenGui")
 local Openit = Instance.new("TextLabel")
 local fullscreen = Instance.new("ImageButton")
@@ -521,7 +517,6 @@ Splash.Active = true
 Splash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Splash.Position = UDim2.new(0, 1, 0, -1)
 Splash.Size = UDim2.new(0, 492, 0, 283)
-Splash.Visible = true
 
 UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
 UIGradient_16.Parent = Splash
@@ -558,7 +553,7 @@ UIAspectRatioConstraint_20.AspectRatio = 1.327
 
 -- Scripts:
 
-local function IODQEN_fake_script() -- fullscreen.LocalScript 
+local function UPXEDM_fake_script() -- fullscreen.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen)
 
 	local frame = script.Parent.Parent.Parent.Frame
@@ -570,8 +565,8 @@ local function IODQEN_fake_script() -- fullscreen.LocalScript
 	frame.Visible = true
 	end)
 end
-coroutine.wrap(IODQEN_fake_script)()
-local function QJCF_fake_script() -- Frame.Dragify 
+coroutine.wrap(UPXEDM_fake_script)()
+local function SAZA_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -614,8 +609,8 @@ local function QJCF_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(QJCF_fake_script)()
-local function WRVGBF_fake_script() -- fullscreen_exit.LocalScript 
+coroutine.wrap(SAZA_fake_script)()
+local function EOBLWKU_fake_script() -- fullscreen_exit.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen_exit)
 
 	local frame = script.Parent.Parent
@@ -627,8 +622,8 @@ local function WRVGBF_fake_script() -- fullscreen_exit.LocalScript
 	frame.Visible = false
 	end)
 end
-coroutine.wrap(WRVGBF_fake_script)()
-local function ZEYS_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(EOBLWKU_fake_script)()
+local function TBGBZ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -641,8 +636,8 @@ local function ZEYS_fake_script() -- TextButton.LocalScript
 		
 	end)
 end
-coroutine.wrap(ZEYS_fake_script)()
-local function YKVN_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(TBGBZ_fake_script)()
+local function APUYZO_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -655,8 +650,8 @@ local function YKVN_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(YKVN_fake_script)()
-local function ABRPNH_fake_script() -- set_wlk.LocalScript 
+coroutine.wrap(APUYZO_fake_script)()
+local function NCLG_fake_script() -- set_wlk.LocalScript 
 	local script = Instance.new('LocalScript', set_wlk)
 
 	local player = game.Players.LocalPlayer
@@ -668,8 +663,8 @@ local function ABRPNH_fake_script() -- set_wlk.LocalScript
 		humanoid.WalkSpeed = script.Parent.Parent.Wlk_input.Text
 	end)
 end
-coroutine.wrap(ABRPNH_fake_script)()
-local function LMUH_fake_script() -- set_jmp.LocalScript 
+coroutine.wrap(NCLG_fake_script)()
+local function FHTH_fake_script() -- set_jmp.LocalScript 
 	local script = Instance.new('LocalScript', set_jmp)
 
 	local player = game.Players.LocalPlayer
@@ -681,8 +676,8 @@ local function LMUH_fake_script() -- set_jmp.LocalScript
 		humanoid.JumpPower = script.Parent.Parent.jmp_input.Text
 	end)
 end
-coroutine.wrap(LMUH_fake_script)()
-local function HUXAX_fake_script() -- tele_to_plr.LocalScript 
+coroutine.wrap(FHTH_fake_script)()
+local function MTTEYKV_fake_script() -- tele_to_plr.LocalScript 
 	local script = Instance.new('LocalScript', tele_to_plr)
 
 	local player = game.Players.LocalPlayer
@@ -701,8 +696,8 @@ local function HUXAX_fake_script() -- tele_to_plr.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HUXAX_fake_script)()
-local function FEGD_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(MTTEYKV_fake_script)()
+local function WSZU_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local img = script.Parent.ImageLabel
@@ -717,8 +712,8 @@ local function FEGD_fake_script() -- Frame_3.LocalScript
 	
 	img.Image = content
 end
-coroutine.wrap(FEGD_fake_script)()
-local function IMXHL_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(WSZU_fake_script)()
+local function DXGGH_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
@@ -727,8 +722,8 @@ local function IMXHL_fake_script() -- TextButton_3.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(IMXHL_fake_script)()
-local function JCSENE_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(DXGGH_fake_script)()
+local function IJKRO_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local plrname = game.Players.LocalPlayer
@@ -738,8 +733,8 @@ local function JCSENE_fake_script() -- TextLabel_5.LocalScript
 	
 	script.Parent.Text = "Welcome "..plrname.Name
 end
-coroutine.wrap(JCSENE_fake_script)()
-local function KTOB_fake_script() -- Splash.LocalScript 
+coroutine.wrap(IJKRO_fake_script)()
+local function WFCY_fake_script() -- Splash.LocalScript 
 	local script = Instance.new('LocalScript', Splash)
 
 	local frame = script.Parent
@@ -755,4 +750,4 @@ local function KTOB_fake_script() -- Splash.LocalScript
 	until frame.BackgroundTransparency >= 0.5
 	frame:Destroy()
 end
-coroutine.wrap(KTOB_fake_script)()
+coroutine.wrap(WFCY_fake_script)()
