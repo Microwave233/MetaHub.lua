@@ -68,7 +68,7 @@ local UIGradient_11 = Instance.new("UIGradient")
 local UICorner_13 = Instance.new("UICorner")
 local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
-local Universalscripts = Instance.new("Frame")
+local Home = Instance.new("Frame")
 local TextLabel_3 = Instance.new("TextLabel")
 local UIGradient_12 = Instance.new("UIGradient")
 local UICorner_14 = Instance.new("UICorner")
@@ -94,7 +94,7 @@ local UIGradient_16 = Instance.new("UIGradient")
 local UICorner_16 = Instance.new("UICorner")
 local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
-local Home = Instance.new("Frame")
+local Universalscripts = Instance.new("Frame")
 local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
 local Universal = Instance.new("TextLabel")
 local UIGradient_17 = Instance.new("UIGradient")
@@ -445,15 +445,15 @@ UITextSizeConstraint_10.MaxTextSize = 15
 UIAspectRatioConstraint_12.Parent = tele_to_plr
 UIAspectRatioConstraint_12.AspectRatio = 4.350
 
-Universalscripts.Name = "Universal scripts"
-Universalscripts.Parent = Fms
-Universalscripts.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Universalscripts.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Universalscripts.BorderSizePixel = 0
-Universalscripts.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
-Universalscripts.Size = UDim2.new(0, 324, 0, 199)
+Home.Name = "Home"
+Home.Parent = Fms
+Home.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Home.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
+Home.Size = UDim2.new(0, 324, 0, 199)
 
-TextLabel_3.Parent = Universalscripts
+TextLabel_3.Parent = Home
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0, 8, 0, 6)
@@ -477,7 +477,7 @@ UIAspectRatioConstraint_13.Parent = TextLabel_3
 UIAspectRatioConstraint_13.AspectRatio = 14.515
 
 Username.Name = "Username"
-Username.Parent = Universalscripts
+Username.Parent = Home
 Username.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Username.BorderSizePixel = 0
 Username.Position = UDim2.new(0, 94, 0, 126)
@@ -500,7 +500,7 @@ UITextSizeConstraint_12.MaxTextSize = 21
 UIAspectRatioConstraint_14.Parent = Username
 UIAspectRatioConstraint_14.AspectRatio = 6.409
 
-Frame_3.Parent = Universalscripts
+Frame_3.Parent = Home
 Frame_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Frame_3.BorderSizePixel = 0
 Frame_3.Position = UDim2.new(0, 119, 0, 45)
@@ -519,10 +519,10 @@ UIAspectRatioConstraint_15.AspectRatio = 1.013
 
 UIAspectRatioConstraint_16.Parent = Frame_3
 
-UIAspectRatioConstraint_17.Parent = Universalscripts
+UIAspectRatioConstraint_17.Parent = Home
 UIAspectRatioConstraint_17.AspectRatio = 1.628
 
-TextLabel_4.Parent = Universalscripts
+TextLabel_4.Parent = Home
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
 TextLabel_4.Position = UDim2.new(0, 8, 0, 179)
@@ -543,7 +543,7 @@ UITextSizeConstraint_13.MaxTextSize = 14
 UIAspectRatioConstraint_18.Parent = TextLabel_4
 UIAspectRatioConstraint_18.AspectRatio = 6.222
 
-TextButton_4.Parent = Universalscripts
+TextButton_4.Parent = Home
 TextButton_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 TextButton_4.Position = UDim2.new(0, 215, 0, 177)
 TextButton_4.Size = UDim2.new(0, 109, 0, 20)
@@ -565,19 +565,20 @@ UIAspectRatioConstraint_19.AspectRatio = 5.450
 UITextSizeConstraint_14.Parent = TextButton_4
 UITextSizeConstraint_14.MaxTextSize = 20
 
-Home.Name = "Home"
-Home.Parent = Fms
-Home.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Home.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Home.BorderSizePixel = 0
-Home.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
-Home.Size = UDim2.new(0, 324, 0, 199)
+Universalscripts.Name = "Universal scripts"
+Universalscripts.Parent = Fms
+Universalscripts.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Universalscripts.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Universalscripts.BorderSizePixel = 0
+Universalscripts.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
+Universalscripts.Size = UDim2.new(0, 324, 0, 199)
+Universalscripts.Visible = false
 
-UIAspectRatioConstraint_20.Parent = Home
+UIAspectRatioConstraint_20.Parent = Universalscripts
 UIAspectRatioConstraint_20.AspectRatio = 1.628
 
 Universal.Name = "Universal"
-Universal.Parent = Home
+Universal.Parent = Universalscripts
 Universal.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Universal.BorderSizePixel = 0
 Universal.Position = UDim2.new(0, 8, 0, 6)
@@ -600,7 +601,7 @@ UITextSizeConstraint_15.MaxTextSize = 21
 UIAspectRatioConstraint_21.Parent = Universal
 UIAspectRatioConstraint_21.AspectRatio = 14.515
 
-ScrollingFrame.Parent = Home
+ScrollingFrame.Parent = Universalscripts
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
@@ -682,7 +683,6 @@ Splash.Active = true
 Splash.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Splash.Position = UDim2.new(0, 1, 0, -1)
 Splash.Size = UDim2.new(0, 492, 0, 283)
-Splash.Visible = false
 
 UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
 UIGradient_21.Parent = Splash
@@ -719,7 +719,7 @@ UIAspectRatioConstraint_26.AspectRatio = 1.327
 
 -- Scripts:
 
-local function OOUTYZT_fake_script() -- fullscreen.LocalScript 
+local function GBXDC_fake_script() -- fullscreen.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen)
 
 	local frame = script.Parent.Parent.Parent.Frame
@@ -731,8 +731,8 @@ local function OOUTYZT_fake_script() -- fullscreen.LocalScript
 	frame.Visible = true
 	end)
 end
-coroutine.wrap(OOUTYZT_fake_script)()
-local function BCKU_fake_script() -- Frame.Dragify 
+coroutine.wrap(GBXDC_fake_script)()
+local function RRKY_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -775,8 +775,8 @@ local function BCKU_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(BCKU_fake_script)()
-local function ECCUV_fake_script() -- fullscreen_exit.LocalScript 
+coroutine.wrap(RRKY_fake_script)()
+local function AAHIDN_fake_script() -- fullscreen_exit.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen_exit)
 
 	local frame = script.Parent.Parent
@@ -788,8 +788,8 @@ local function ECCUV_fake_script() -- fullscreen_exit.LocalScript
 	frame.Visible = false
 	end)
 end
-coroutine.wrap(ECCUV_fake_script)()
-local function KYWPRH_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(AAHIDN_fake_script)()
+local function NUFOGH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -802,8 +802,8 @@ local function KYWPRH_fake_script() -- TextButton.LocalScript
 		
 	end)
 end
-coroutine.wrap(KYWPRH_fake_script)()
-local function QWMP_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(NUFOGH_fake_script)()
+local function RQZTDYO_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -816,8 +816,8 @@ local function QWMP_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(QWMP_fake_script)()
-local function GFKUL_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(RQZTDYO_fake_script)()
+local function FFYY_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -830,8 +830,8 @@ local function GFKUL_fake_script() -- TextButton_3.LocalScript
 		
 	end)
 end
-coroutine.wrap(GFKUL_fake_script)()
-local function EMJO_fake_script() -- set_wlk.LocalScript 
+coroutine.wrap(FFYY_fake_script)()
+local function ENTFDK_fake_script() -- set_wlk.LocalScript 
 	local script = Instance.new('LocalScript', set_wlk)
 
 	local player = game.Players.LocalPlayer
@@ -843,8 +843,8 @@ local function EMJO_fake_script() -- set_wlk.LocalScript
 		humanoid.WalkSpeed = script.Parent.Parent.Wlk_input.Text
 	end)
 end
-coroutine.wrap(EMJO_fake_script)()
-local function PKUM_fake_script() -- set_jmp.LocalScript 
+coroutine.wrap(ENTFDK_fake_script)()
+local function ZIXVRSN_fake_script() -- set_jmp.LocalScript 
 	local script = Instance.new('LocalScript', set_jmp)
 
 	local player = game.Players.LocalPlayer
@@ -856,8 +856,8 @@ local function PKUM_fake_script() -- set_jmp.LocalScript
 		humanoid.JumpPower = script.Parent.Parent.jmp_input.Text
 	end)
 end
-coroutine.wrap(PKUM_fake_script)()
-local function XUNIJ_fake_script() -- tele_to_plr.LocalScript 
+coroutine.wrap(ZIXVRSN_fake_script)()
+local function ERANP_fake_script() -- tele_to_plr.LocalScript 
 	local script = Instance.new('LocalScript', tele_to_plr)
 
 	local player = game.Players.LocalPlayer
@@ -876,8 +876,8 @@ local function XUNIJ_fake_script() -- tele_to_plr.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XUNIJ_fake_script)()
-local function HFCKBBG_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(ERANP_fake_script)()
+local function NZPEJ_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local img = script.Parent.ImageLabel
@@ -892,8 +892,8 @@ local function HFCKBBG_fake_script() -- Frame_3.LocalScript
 	
 	img.Image = content
 end
-coroutine.wrap(HFCKBBG_fake_script)()
-local function VTCCENO_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(NZPEJ_fake_script)()
+local function VNZKPR_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
@@ -902,16 +902,16 @@ local function VTCCENO_fake_script() -- TextButton_4.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(VTCCENO_fake_script)()
-local function ECRIE_fake_script() -- Infiniteyeild.LocalScript 
+coroutine.wrap(VNZKPR_fake_script)()
+local function KUCQ_fake_script() -- Infiniteyeild.LocalScript 
 	local script = Instance.new('LocalScript', Infiniteyeild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
 	end)
 end
-coroutine.wrap(ECRIE_fake_script)()
-local function CYMPXT_fake_script() -- Dex.LocalScript 
+coroutine.wrap(KUCQ_fake_script)()
+local function XQHBGKS_fake_script() -- Dex.LocalScript 
 	local script = Instance.new('LocalScript', Dex)
 
 	
@@ -921,8 +921,8 @@ local function CYMPXT_fake_script() -- Dex.LocalScript
 	
 	
 end
-coroutine.wrap(CYMPXT_fake_script)()
-local function YROOICC_fake_script() -- CMDX.LocalScript 
+coroutine.wrap(XQHBGKS_fake_script)()
+local function IRNLBYK_fake_script() -- CMDX.LocalScript 
 	local script = Instance.new('LocalScript', CMDX)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -931,8 +931,8 @@ local function YROOICC_fake_script() -- CMDX.LocalScript
 	
 	
 end
-coroutine.wrap(YROOICC_fake_script)()
-local function LVKY_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(IRNLBYK_fake_script)()
+local function VQUQ_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local plrname = game.Players.LocalPlayer
@@ -942,8 +942,8 @@ local function LVKY_fake_script() -- TextLabel_5.LocalScript
 	
 	script.Parent.Text = "Welcome "..plrname.Name
 end
-coroutine.wrap(LVKY_fake_script)()
-local function YAUNJ_fake_script() -- Splash.LocalScript 
+coroutine.wrap(VQUQ_fake_script)()
+local function CRWT_fake_script() -- Splash.LocalScript 
 	local script = Instance.new('LocalScript', Splash)
 
 	local frame = script.Parent
@@ -959,4 +959,4 @@ local function YAUNJ_fake_script() -- Splash.LocalScript
 	until frame.BackgroundTransparency >= 0.5
 	frame:Destroy()
 end
-coroutine.wrap(YAUNJ_fake_script)()
+coroutine.wrap(CRWT_fake_script)()
