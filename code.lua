@@ -1,4 +1,8 @@
---metahub
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Openit = Instance.new("TextLabel")
 local fullscreen = Instance.new("ImageButton")
@@ -24,98 +28,103 @@ local UICorner_5 = Instance.new("UICorner")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextButton_3 = Instance.new("TextButton")
+local UIGradient_7 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
 local Fms = Instance.new("Folder")
 local PlayerScripts = Instance.new("Frame")
 local Wlk_input = Instance.new("TextBox")
-local UICorner_6 = Instance.new("UICorner")
-local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
-local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
-local set_wlk = Instance.new("TextButton")
-local UIGradient_7 = Instance.new("UIGradient")
 local UICorner_7 = Instance.new("UICorner")
 local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
-local jmp_input = Instance.new("TextBox")
+local set_wlk = Instance.new("TextButton")
+local UIGradient_8 = Instance.new("UIGradient")
 local UICorner_8 = Instance.new("UICorner")
 local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
-local set_jmp = Instance.new("TextButton")
-local UIGradient_8 = Instance.new("UIGradient")
+local jmp_input = Instance.new("TextBox")
 local UICorner_9 = Instance.new("UICorner")
 local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_2 = Instance.new("TextLabel")
+local set_jmp = Instance.new("TextButton")
 local UIGradient_9 = Instance.new("UIGradient")
 local UICorner_10 = Instance.new("UICorner")
 local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
-local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
-local Tele_input = Instance.new("TextBox")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_10 = Instance.new("UIGradient")
 local UICorner_11 = Instance.new("UICorner")
 local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
-local tele_to_plr = Instance.new("TextButton")
-local UIGradient_10 = Instance.new("UIGradient")
+local Tele_input = Instance.new("TextBox")
 local UICorner_12 = Instance.new("UICorner")
 local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
-local Home = Instance.new("Frame")
-local TextLabel_3 = Instance.new("TextLabel")
+local tele_to_plr = Instance.new("TextButton")
 local UIGradient_11 = Instance.new("UIGradient")
 local UICorner_13 = Instance.new("UICorner")
 local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
-local Username = Instance.new("TextLabel")
+local Universalscripts = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
 local UIGradient_12 = Instance.new("UIGradient")
 local UICorner_14 = Instance.new("UICorner")
 local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
-local Frame_3 = Instance.new("Frame")
+local Username = Instance.new("TextLabel")
 local UIGradient_13 = Instance.new("UIGradient")
-local ImageLabel = Instance.new("ImageLabel")
+local UICorner_15 = Instance.new("UICorner")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local Frame_3 = Instance.new("Frame")
+local UIGradient_14 = Instance.new("UIGradient")
+local ImageLabel = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
-local TextLabel_4 = Instance.new("TextLabel")
-local UIGradient_14 = Instance.new("UIGradient")
-local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
-local TextButton_3 = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
 local UIGradient_15 = Instance.new("UIGradient")
-local UICorner_15 = Instance.new("UICorner")
-local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
-local Home_2 = Instance.new("Frame")
-local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
-local Universal = Instance.new("TextLabel")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local TextButton_4 = Instance.new("TextButton")
 local UIGradient_16 = Instance.new("UIGradient")
 local UICorner_16 = Instance.new("UICorner")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
 local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local Home = Instance.new("Frame")
 local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local Infiniteyeild = Instance.new("TextButton")
+local Universal = Instance.new("TextLabel")
 local UIGradient_17 = Instance.new("UIGradient")
 local UICorner_17 = Instance.new("UICorner")
 local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
-local Dex = Instance.new("TextButton")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Infiniteyeild = Instance.new("TextButton")
 local UIGradient_18 = Instance.new("UIGradient")
 local UICorner_18 = Instance.new("UICorner")
 local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
-local CMDX = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
 local UIGradient_19 = Instance.new("UIGradient")
 local UICorner_19 = Instance.new("UICorner")
 local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
-local Splash = Instance.new("Frame")
+local CMDX = Instance.new("TextButton")
 local UIGradient_20 = Instance.new("UIGradient")
 local UICorner_20 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local UIGradient_21 = Instance.new("UIGradient")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
-local ImageLabel_2 = Instance.new("ImageLabel")
+local Splash = Instance.new("Frame")
+local UIGradient_21 = Instance.new("UIGradient")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIGradient_22 = Instance.new("UIGradient")
 local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -242,6 +251,28 @@ UITextSizeConstraint_2.MaxTextSize = 20
 UIAspectRatioConstraint_3.Parent = Frame_2
 UIAspectRatioConstraint_3.AspectRatio = 0.529
 
+TextButton_3.Parent = Frame_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_3.Position = UDim2.new(0, -3, 0, 84)
+TextButton_3.Size = UDim2.new(0, 109, 0, 20)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Universal scripts"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 18.000
+TextButton_3.TextWrapped = true
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_7.Parent = TextButton_3
+
+UICorner_6.Parent = TextButton_3
+
+UIAspectRatioConstraint_4.Parent = TextButton_3
+UIAspectRatioConstraint_4.AspectRatio = 5.450
+
+UITextSizeConstraint_3.Parent = TextButton_3
+UITextSizeConstraint_3.MaxTextSize = 20
+
 Fms.Name = "Fms"
 Fms.Parent = Frame
 
@@ -267,13 +298,13 @@ Wlk_input.TextScaled = true
 Wlk_input.TextSize = 14.000
 Wlk_input.TextWrapped = true
 
-UICorner_6.Parent = Wlk_input
+UICorner_7.Parent = Wlk_input
 
-UITextSizeConstraint_3.Parent = Wlk_input
-UITextSizeConstraint_3.MaxTextSize = 14
+UITextSizeConstraint_4.Parent = Wlk_input
+UITextSizeConstraint_4.MaxTextSize = 14
 
-UIAspectRatioConstraint_4.Parent = Wlk_input
-UIAspectRatioConstraint_4.AspectRatio = 5.056
+UIAspectRatioConstraint_5.Parent = Wlk_input
+UIAspectRatioConstraint_5.AspectRatio = 5.056
 
 set_wlk.Name = "set_wlk"
 set_wlk.Parent = PlayerScripts
@@ -287,16 +318,16 @@ set_wlk.TextScaled = true
 set_wlk.TextSize = 14.000
 set_wlk.TextWrapped = true
 
-UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_7.Parent = set_wlk
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_8.Parent = set_wlk
 
-UICorner_7.Parent = set_wlk
+UICorner_8.Parent = set_wlk
 
-UITextSizeConstraint_4.Parent = set_wlk
-UITextSizeConstraint_4.MaxTextSize = 17
+UITextSizeConstraint_5.Parent = set_wlk
+UITextSizeConstraint_5.MaxTextSize = 17
 
-UIAspectRatioConstraint_5.Parent = set_wlk
-UIAspectRatioConstraint_5.AspectRatio = 4.350
+UIAspectRatioConstraint_6.Parent = set_wlk
+UIAspectRatioConstraint_6.AspectRatio = 4.350
 
 jmp_input.Name = "jmp_input"
 jmp_input.Parent = PlayerScripts
@@ -312,13 +343,13 @@ jmp_input.TextScaled = true
 jmp_input.TextSize = 14.000
 jmp_input.TextWrapped = true
 
-UICorner_8.Parent = jmp_input
+UICorner_9.Parent = jmp_input
 
-UITextSizeConstraint_5.Parent = jmp_input
-UITextSizeConstraint_5.MaxTextSize = 14
+UITextSizeConstraint_6.Parent = jmp_input
+UITextSizeConstraint_6.MaxTextSize = 14
 
-UIAspectRatioConstraint_6.Parent = jmp_input
-UIAspectRatioConstraint_6.AspectRatio = 5.056
+UIAspectRatioConstraint_7.Parent = jmp_input
+UIAspectRatioConstraint_7.AspectRatio = 5.056
 
 set_jmp.Name = "set_jmp"
 set_jmp.Parent = PlayerScripts
@@ -332,16 +363,16 @@ set_jmp.TextScaled = true
 set_jmp.TextSize = 14.000
 set_jmp.TextWrapped = true
 
-UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_8.Parent = set_jmp
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_9.Parent = set_jmp
 
-UICorner_9.Parent = set_jmp
+UICorner_10.Parent = set_jmp
 
-UITextSizeConstraint_6.Parent = set_jmp
-UITextSizeConstraint_6.MaxTextSize = 15
+UITextSizeConstraint_7.Parent = set_jmp
+UITextSizeConstraint_7.MaxTextSize = 15
 
-UIAspectRatioConstraint_7.Parent = set_jmp
-UIAspectRatioConstraint_7.AspectRatio = 4.350
+UIAspectRatioConstraint_8.Parent = set_jmp
+UIAspectRatioConstraint_8.AspectRatio = 4.350
 
 TextLabel_2.Parent = PlayerScripts
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
@@ -355,19 +386,19 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
-UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_9.Parent = TextLabel_2
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_10.Parent = TextLabel_2
 
-UICorner_10.Parent = TextLabel_2
+UICorner_11.Parent = TextLabel_2
 
-UITextSizeConstraint_7.Parent = TextLabel_2
-UITextSizeConstraint_7.MaxTextSize = 21
+UITextSizeConstraint_8.Parent = TextLabel_2
+UITextSizeConstraint_8.MaxTextSize = 21
 
-UIAspectRatioConstraint_8.Parent = TextLabel_2
-UIAspectRatioConstraint_8.AspectRatio = 14.515
+UIAspectRatioConstraint_9.Parent = TextLabel_2
+UIAspectRatioConstraint_9.AspectRatio = 14.515
 
-UIAspectRatioConstraint_9.Parent = PlayerScripts
-UIAspectRatioConstraint_9.AspectRatio = 1.628
+UIAspectRatioConstraint_10.Parent = PlayerScripts
+UIAspectRatioConstraint_10.AspectRatio = 1.628
 
 Tele_input.Name = "Tele_input"
 Tele_input.Parent = PlayerScripts
@@ -383,13 +414,13 @@ Tele_input.TextScaled = true
 Tele_input.TextSize = 14.000
 Tele_input.TextWrapped = true
 
-UICorner_11.Parent = Tele_input
+UICorner_12.Parent = Tele_input
 
-UITextSizeConstraint_8.Parent = Tele_input
-UITextSizeConstraint_8.MaxTextSize = 14
+UITextSizeConstraint_9.Parent = Tele_input
+UITextSizeConstraint_9.MaxTextSize = 14
 
-UIAspectRatioConstraint_10.Parent = Tele_input
-UIAspectRatioConstraint_10.AspectRatio = 5.056
+UIAspectRatioConstraint_11.Parent = Tele_input
+UIAspectRatioConstraint_11.AspectRatio = 5.056
 
 tele_to_plr.Name = "tele_to_plr"
 tele_to_plr.Parent = PlayerScripts
@@ -403,26 +434,26 @@ tele_to_plr.TextScaled = true
 tele_to_plr.TextSize = 14.000
 tele_to_plr.TextWrapped = true
 
-UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_10.Parent = tele_to_plr
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_11.Parent = tele_to_plr
 
-UICorner_12.Parent = tele_to_plr
+UICorner_13.Parent = tele_to_plr
 
-UITextSizeConstraint_9.Parent = tele_to_plr
-UITextSizeConstraint_9.MaxTextSize = 15
+UITextSizeConstraint_10.Parent = tele_to_plr
+UITextSizeConstraint_10.MaxTextSize = 15
 
-UIAspectRatioConstraint_11.Parent = tele_to_plr
-UIAspectRatioConstraint_11.AspectRatio = 4.350
+UIAspectRatioConstraint_12.Parent = tele_to_plr
+UIAspectRatioConstraint_12.AspectRatio = 4.350
 
-Home.Name = "Home"
-Home.Parent = Fms
-Home.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Home.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Home.BorderSizePixel = 0
-Home.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
-Home.Size = UDim2.new(0, 324, 0, 199)
+Universalscripts.Name = "Universal scripts"
+Universalscripts.Parent = Fms
+Universalscripts.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Universalscripts.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Universalscripts.BorderSizePixel = 0
+Universalscripts.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
+Universalscripts.Size = UDim2.new(0, 324, 0, 199)
 
-TextLabel_3.Parent = Home
+TextLabel_3.Parent = Universalscripts
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 TextLabel_3.BorderSizePixel = 0
 TextLabel_3.Position = UDim2.new(0, 8, 0, 6)
@@ -434,19 +465,19 @@ TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
 
-UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_11.Parent = TextLabel_3
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_12.Parent = TextLabel_3
 
-UICorner_13.Parent = TextLabel_3
+UICorner_14.Parent = TextLabel_3
 
-UITextSizeConstraint_10.Parent = TextLabel_3
-UITextSizeConstraint_10.MaxTextSize = 21
+UITextSizeConstraint_11.Parent = TextLabel_3
+UITextSizeConstraint_11.MaxTextSize = 21
 
-UIAspectRatioConstraint_12.Parent = TextLabel_3
-UIAspectRatioConstraint_12.AspectRatio = 14.515
+UIAspectRatioConstraint_13.Parent = TextLabel_3
+UIAspectRatioConstraint_13.AspectRatio = 14.515
 
 Username.Name = "Username"
-Username.Parent = Home
+Username.Parent = Universalscripts
 Username.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Username.BorderSizePixel = 0
 Username.Position = UDim2.new(0, 94, 0, 126)
@@ -458,40 +489,40 @@ Username.TextScaled = true
 Username.TextSize = 14.000
 Username.TextWrapped = true
 
-UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_12.Parent = Username
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_13.Parent = Username
 
-UICorner_14.Parent = Username
+UICorner_15.Parent = Username
 
-UITextSizeConstraint_11.Parent = Username
-UITextSizeConstraint_11.MaxTextSize = 21
+UITextSizeConstraint_12.Parent = Username
+UITextSizeConstraint_12.MaxTextSize = 21
 
-UIAspectRatioConstraint_13.Parent = Username
-UIAspectRatioConstraint_13.AspectRatio = 6.409
+UIAspectRatioConstraint_14.Parent = Username
+UIAspectRatioConstraint_14.AspectRatio = 6.409
 
-Frame_3.Parent = Home
+Frame_3.Parent = Universalscripts
 Frame_3.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Frame_3.BorderSizePixel = 0
 Frame_3.Position = UDim2.new(0, 119, 0, 45)
 Frame_3.Size = UDim2.new(0, 81, 0, 81)
 
-UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_13.Parent = Frame_3
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_14.Parent = Frame_3
 
 ImageLabel.Parent = Frame_3
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Size = UDim2.new(1, 0, 0.987654328, 0)
 
-UIAspectRatioConstraint_14.Parent = ImageLabel
-UIAspectRatioConstraint_14.AspectRatio = 1.013
+UIAspectRatioConstraint_15.Parent = ImageLabel
+UIAspectRatioConstraint_15.AspectRatio = 1.013
 
-UIAspectRatioConstraint_15.Parent = Frame_3
+UIAspectRatioConstraint_16.Parent = Frame_3
 
-UIAspectRatioConstraint_16.Parent = Home
-UIAspectRatioConstraint_16.AspectRatio = 1.628
+UIAspectRatioConstraint_17.Parent = Universalscripts
+UIAspectRatioConstraint_17.AspectRatio = 1.628
 
-TextLabel_4.Parent = Home
+TextLabel_4.Parent = Universalscripts
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
 TextLabel_4.Position = UDim2.new(0, 8, 0, 179)
@@ -503,50 +534,50 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
 
-UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_14.Parent = TextLabel_4
-
-UITextSizeConstraint_12.Parent = TextLabel_4
-UITextSizeConstraint_12.MaxTextSize = 14
-
-UIAspectRatioConstraint_17.Parent = TextLabel_4
-UIAspectRatioConstraint_17.AspectRatio = 6.222
-
-TextButton_3.Parent = Home
-TextButton_3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-TextButton_3.Position = UDim2.new(0, 215, 0, 177)
-TextButton_3.Size = UDim2.new(0, 109, 0, 20)
-TextButton_3.Font = Enum.Font.SourceSans
-TextButton_3.Text = "Unload Meta"
-TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.TextScaled = true
-TextButton_3.TextSize = 18.000
-TextButton_3.TextWrapped = true
-
 UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_15.Parent = TextButton_3
+UIGradient_15.Parent = TextLabel_4
 
-UICorner_15.Parent = TextButton_3
+UITextSizeConstraint_13.Parent = TextLabel_4
+UITextSizeConstraint_13.MaxTextSize = 14
 
-UIAspectRatioConstraint_18.Parent = TextButton_3
-UIAspectRatioConstraint_18.AspectRatio = 5.450
+UIAspectRatioConstraint_18.Parent = TextLabel_4
+UIAspectRatioConstraint_18.AspectRatio = 6.222
 
-UITextSizeConstraint_13.Parent = TextButton_3
-UITextSizeConstraint_13.MaxTextSize = 20
+TextButton_4.Parent = Universalscripts
+TextButton_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextButton_4.Position = UDim2.new(0, 215, 0, 177)
+TextButton_4.Size = UDim2.new(0, 109, 0, 20)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Unload Meta"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 18.000
+TextButton_4.TextWrapped = true
 
-Home_2.Name = "Home"
-Home_2.Parent = Fms
-Home_2.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
-Home_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-Home_2.BorderSizePixel = 0
-Home_2.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
-Home_2.Size = UDim2.new(0, 324, 0, 199)
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_16.Parent = TextButton_4
 
-UIAspectRatioConstraint_19.Parent = Home_2
-UIAspectRatioConstraint_19.AspectRatio = 1.628
+UICorner_16.Parent = TextButton_4
+
+UIAspectRatioConstraint_19.Parent = TextButton_4
+UIAspectRatioConstraint_19.AspectRatio = 5.450
+
+UITextSizeConstraint_14.Parent = TextButton_4
+UITextSizeConstraint_14.MaxTextSize = 20
+
+Home.Name = "Home"
+Home.Parent = Fms
+Home.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Home.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Home.BorderSizePixel = 0
+Home.Position = UDim2.new(0.292650521, 0, 0.240282685, 0)
+Home.Size = UDim2.new(0, 324, 0, 199)
+
+UIAspectRatioConstraint_20.Parent = Home
+UIAspectRatioConstraint_20.AspectRatio = 1.628
 
 Universal.Name = "Universal"
-Universal.Parent = Home_2
+Universal.Parent = Home
 Universal.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Universal.BorderSizePixel = 0
 Universal.Position = UDim2.new(0, 8, 0, 6)
@@ -558,18 +589,18 @@ Universal.TextScaled = true
 Universal.TextSize = 14.000
 Universal.TextWrapped = true
 
-UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_16.Parent = Universal
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_17.Parent = Universal
 
-UICorner_16.Parent = Universal
+UICorner_17.Parent = Universal
 
-UITextSizeConstraint_14.Parent = Universal
-UITextSizeConstraint_14.MaxTextSize = 21
+UITextSizeConstraint_15.Parent = Universal
+UITextSizeConstraint_15.MaxTextSize = 21
 
-UIAspectRatioConstraint_20.Parent = Universal
-UIAspectRatioConstraint_20.AspectRatio = 14.515
+UIAspectRatioConstraint_21.Parent = Universal
+UIAspectRatioConstraint_21.AspectRatio = 14.515
 
-ScrollingFrame.Parent = Home_2
+ScrollingFrame.Parent = Home
 ScrollingFrame.Active = true
 ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScrollingFrame.BackgroundTransparency = 1.000
@@ -588,16 +619,16 @@ Infiniteyeild.TextScaled = true
 Infiniteyeild.TextSize = 14.000
 Infiniteyeild.TextWrapped = true
 
-UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_17.Parent = Infiniteyeild
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_18.Parent = Infiniteyeild
 
-UICorner_17.Parent = Infiniteyeild
+UICorner_18.Parent = Infiniteyeild
 
-UITextSizeConstraint_15.Parent = Infiniteyeild
-UITextSizeConstraint_15.MaxTextSize = 15
+UITextSizeConstraint_16.Parent = Infiniteyeild
+UITextSizeConstraint_16.MaxTextSize = 15
 
-UIAspectRatioConstraint_21.Parent = Infiniteyeild
-UIAspectRatioConstraint_21.AspectRatio = 4.350
+UIAspectRatioConstraint_22.Parent = Infiniteyeild
+UIAspectRatioConstraint_22.AspectRatio = 4.350
 
 Dex.Name = "Dex"
 Dex.Parent = ScrollingFrame
@@ -611,16 +642,16 @@ Dex.TextScaled = true
 Dex.TextSize = 14.000
 Dex.TextWrapped = true
 
-UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_18.Parent = Dex
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_19.Parent = Dex
 
-UICorner_18.Parent = Dex
+UICorner_19.Parent = Dex
 
-UITextSizeConstraint_16.Parent = Dex
-UITextSizeConstraint_16.MaxTextSize = 15
+UITextSizeConstraint_17.Parent = Dex
+UITextSizeConstraint_17.MaxTextSize = 15
 
-UIAspectRatioConstraint_22.Parent = Dex
-UIAspectRatioConstraint_22.AspectRatio = 4.350
+UIAspectRatioConstraint_23.Parent = Dex
+UIAspectRatioConstraint_23.AspectRatio = 4.350
 
 CMDX.Name = "CMDX"
 CMDX.Parent = ScrollingFrame
@@ -634,16 +665,16 @@ CMDX.TextScaled = true
 CMDX.TextSize = 14.000
 CMDX.TextWrapped = true
 
-UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_19.Parent = CMDX
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_20.Parent = CMDX
 
-UICorner_19.Parent = CMDX
+UICorner_20.Parent = CMDX
 
-UITextSizeConstraint_17.Parent = CMDX
-UITextSizeConstraint_17.MaxTextSize = 15
+UITextSizeConstraint_18.Parent = CMDX
+UITextSizeConstraint_18.MaxTextSize = 15
 
-UIAspectRatioConstraint_23.Parent = CMDX
-UIAspectRatioConstraint_23.AspectRatio = 4.350
+UIAspectRatioConstraint_24.Parent = CMDX
+UIAspectRatioConstraint_24.AspectRatio = 4.350
 
 Splash.Name = "Splash"
 Splash.Parent = Frame
@@ -653,10 +684,10 @@ Splash.Position = UDim2.new(0, 1, 0, -1)
 Splash.Size = UDim2.new(0, 492, 0, 283)
 Splash.Visible = false
 
-UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_20.Parent = Splash
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_21.Parent = Splash
 
-UICorner_20.Parent = Splash
+UICorner_21.Parent = Splash
 
 TextLabel_5.Parent = Splash
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -669,11 +700,11 @@ TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
 TextLabel_5.TextWrapped = true
 
-UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_21.Parent = TextLabel_5
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_22.Parent = TextLabel_5
 
-UIAspectRatioConstraint_24.Parent = TextLabel_5
-UIAspectRatioConstraint_24.AspectRatio = 8.345
+UIAspectRatioConstraint_25.Parent = TextLabel_5
+UIAspectRatioConstraint_25.AspectRatio = 8.345
 
 ImageLabel_2.Parent = Splash
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -683,12 +714,12 @@ ImageLabel_2.Size = UDim2.new(0, 260, 0, 196)
 ImageLabel_2.Image = "rbxassetid://10753310375"
 ImageLabel_2.ScaleType = Enum.ScaleType.Fit
 
-UIAspectRatioConstraint_25.Parent = ImageLabel_2
-UIAspectRatioConstraint_25.AspectRatio = 1.327
+UIAspectRatioConstraint_26.Parent = ImageLabel_2
+UIAspectRatioConstraint_26.AspectRatio = 1.327
 
 -- Scripts:
 
-local function IGDKZ_fake_script() -- fullscreen.LocalScript 
+local function OOUTYZT_fake_script() -- fullscreen.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen)
 
 	local frame = script.Parent.Parent.Parent.Frame
@@ -700,8 +731,8 @@ local function IGDKZ_fake_script() -- fullscreen.LocalScript
 	frame.Visible = true
 	end)
 end
-coroutine.wrap(IGDKZ_fake_script)()
-local function XMDVJ_fake_script() -- Frame.Dragify 
+coroutine.wrap(OOUTYZT_fake_script)()
+local function BCKU_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -744,8 +775,8 @@ local function XMDVJ_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(XMDVJ_fake_script)()
-local function VICU_fake_script() -- fullscreen_exit.LocalScript 
+coroutine.wrap(BCKU_fake_script)()
+local function ECCUV_fake_script() -- fullscreen_exit.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen_exit)
 
 	local frame = script.Parent.Parent
@@ -757,8 +788,8 @@ local function VICU_fake_script() -- fullscreen_exit.LocalScript
 	frame.Visible = false
 	end)
 end
-coroutine.wrap(VICU_fake_script)()
-local function NZBEJ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ECCUV_fake_script)()
+local function KYWPRH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -771,8 +802,8 @@ local function NZBEJ_fake_script() -- TextButton.LocalScript
 		
 	end)
 end
-coroutine.wrap(NZBEJ_fake_script)()
-local function BQMRU_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(KYWPRH_fake_script)()
+local function QWMP_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -785,8 +816,22 @@ local function BQMRU_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(BQMRU_fake_script)()
-local function MPEHPO_fake_script() -- set_wlk.LocalScript 
+coroutine.wrap(QWMP_fake_script)()
+local function GFKUL_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
+	local frame = script.Parent.Parent.Parent.Fms
+	script.Parent.MouseButton1Click:Connect(function()
+		for i = 1, #frames do
+			frames[i].Visible = false
+		end
+		frame[script.Parent.Text].Visible = true
+		
+	end)
+end
+coroutine.wrap(GFKUL_fake_script)()
+local function EMJO_fake_script() -- set_wlk.LocalScript 
 	local script = Instance.new('LocalScript', set_wlk)
 
 	local player = game.Players.LocalPlayer
@@ -798,8 +843,8 @@ local function MPEHPO_fake_script() -- set_wlk.LocalScript
 		humanoid.WalkSpeed = script.Parent.Parent.Wlk_input.Text
 	end)
 end
-coroutine.wrap(MPEHPO_fake_script)()
-local function XIZSZEV_fake_script() -- set_jmp.LocalScript 
+coroutine.wrap(EMJO_fake_script)()
+local function PKUM_fake_script() -- set_jmp.LocalScript 
 	local script = Instance.new('LocalScript', set_jmp)
 
 	local player = game.Players.LocalPlayer
@@ -811,8 +856,8 @@ local function XIZSZEV_fake_script() -- set_jmp.LocalScript
 		humanoid.JumpPower = script.Parent.Parent.jmp_input.Text
 	end)
 end
-coroutine.wrap(XIZSZEV_fake_script)()
-local function NRERDEZ_fake_script() -- tele_to_plr.LocalScript 
+coroutine.wrap(PKUM_fake_script)()
+local function XUNIJ_fake_script() -- tele_to_plr.LocalScript 
 	local script = Instance.new('LocalScript', tele_to_plr)
 
 	local player = game.Players.LocalPlayer
@@ -831,8 +876,8 @@ local function NRERDEZ_fake_script() -- tele_to_plr.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NRERDEZ_fake_script)()
-local function IUZHDRJ_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(XUNIJ_fake_script)()
+local function HFCKBBG_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local img = script.Parent.ImageLabel
@@ -847,9 +892,9 @@ local function IUZHDRJ_fake_script() -- Frame_3.LocalScript
 	
 	img.Image = content
 end
-coroutine.wrap(IUZHDRJ_fake_script)()
-local function HUJZ_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
+coroutine.wrap(HFCKBBG_fake_script)()
+local function VTCCENO_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
 	
@@ -857,16 +902,16 @@ local function HUJZ_fake_script() -- TextButton_3.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(HUJZ_fake_script)()
-local function ZFAQPGA_fake_script() -- Infiniteyeild.LocalScript 
+coroutine.wrap(VTCCENO_fake_script)()
+local function ECRIE_fake_script() -- Infiniteyeild.LocalScript 
 	local script = Instance.new('LocalScript', Infiniteyeild)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
 	end)
 end
-coroutine.wrap(ZFAQPGA_fake_script)()
-local function AMZMM_fake_script() -- Dex.LocalScript 
+coroutine.wrap(ECRIE_fake_script)()
+local function CYMPXT_fake_script() -- Dex.LocalScript 
 	local script = Instance.new('LocalScript', Dex)
 
 	
@@ -876,8 +921,8 @@ local function AMZMM_fake_script() -- Dex.LocalScript
 	
 	
 end
-coroutine.wrap(AMZMM_fake_script)()
-local function TDUGWE_fake_script() -- CMDX.LocalScript 
+coroutine.wrap(CYMPXT_fake_script)()
+local function YROOICC_fake_script() -- CMDX.LocalScript 
 	local script = Instance.new('LocalScript', CMDX)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -886,8 +931,8 @@ local function TDUGWE_fake_script() -- CMDX.LocalScript
 	
 	
 end
-coroutine.wrap(TDUGWE_fake_script)()
-local function UIIUJLY_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(YROOICC_fake_script)()
+local function LVKY_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local plrname = game.Players.LocalPlayer
@@ -897,8 +942,8 @@ local function UIIUJLY_fake_script() -- TextLabel_5.LocalScript
 	
 	script.Parent.Text = "Welcome "..plrname.Name
 end
-coroutine.wrap(UIIUJLY_fake_script)()
-local function BTLGR_fake_script() -- Splash.LocalScript 
+coroutine.wrap(LVKY_fake_script)()
+local function YAUNJ_fake_script() -- Splash.LocalScript 
 	local script = Instance.new('LocalScript', Splash)
 
 	local frame = script.Parent
@@ -914,4 +959,4 @@ local function BTLGR_fake_script() -- Splash.LocalScript
 	until frame.BackgroundTransparency >= 0.5
 	frame:Destroy()
 end
-coroutine.wrap(BTLGR_fake_script)()
+coroutine.wrap(YAUNJ_fake_script)()
