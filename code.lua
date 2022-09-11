@@ -1,4 +1,4 @@
---meta hub
+--metahub
 local ScreenGui = Instance.new("ScreenGui")
 local Openit = Instance.new("TextLabel")
 local fullscreen = Instance.new("ImageButton")
@@ -93,17 +93,17 @@ local UICorner_16 = Instance.new("UICorner")
 local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
 local ScrollingFrame = Instance.new("ScrollingFrame")
-local CMDX = Instance.new("TextButton")
+local Infiniteyeild = Instance.new("TextButton")
 local UIGradient_17 = Instance.new("UIGradient")
 local UICorner_17 = Instance.new("UICorner")
 local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
-local Infiniteyeild = Instance.new("TextButton")
+local Dex = Instance.new("TextButton")
 local UIGradient_18 = Instance.new("UIGradient")
 local UICorner_18 = Instance.new("UICorner")
 local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
 local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
-local Dex = Instance.new("TextButton")
+local CMDX = Instance.new("TextButton")
 local UIGradient_19 = Instance.new("UIGradient")
 local UICorner_19 = Instance.new("UICorner")
 local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
@@ -576,29 +576,6 @@ ScrollingFrame.BackgroundTransparency = 1.000
 ScrollingFrame.Position = UDim2.new(0, 0, 0.135678396, 0)
 ScrollingFrame.Size = UDim2.new(0, 324, 0, 172)
 
-CMDX.Name = "CMDX"
-CMDX.Parent = ScrollingFrame
-CMDX.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
-CMDX.Position = UDim2.new(0.0617283732, 0, 0.0452261344, 0)
-CMDX.Size = UDim2.new(0.268518507, 0, 0.100502513, 0)
-CMDX.Font = Enum.Font.SourceSans
-CMDX.Text = "CMDX FE admin"
-CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
-CMDX.TextScaled = true
-CMDX.TextSize = 14.000
-CMDX.TextWrapped = true
-
-UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_17.Parent = CMDX
-
-UICorner_17.Parent = CMDX
-
-UITextSizeConstraint_15.Parent = CMDX
-UITextSizeConstraint_15.MaxTextSize = 15
-
-UIAspectRatioConstraint_21.Parent = CMDX
-UIAspectRatioConstraint_21.AspectRatio = 4.350
-
 Infiniteyeild.Name = "Infinite yeild"
 Infiniteyeild.Parent = ScrollingFrame
 Infiniteyeild.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
@@ -611,16 +588,16 @@ Infiniteyeild.TextScaled = true
 Infiniteyeild.TextSize = 14.000
 Infiniteyeild.TextWrapped = true
 
-UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_18.Parent = Infiniteyeild
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_17.Parent = Infiniteyeild
 
-UICorner_18.Parent = Infiniteyeild
+UICorner_17.Parent = Infiniteyeild
 
-UITextSizeConstraint_16.Parent = Infiniteyeild
-UITextSizeConstraint_16.MaxTextSize = 15
+UITextSizeConstraint_15.Parent = Infiniteyeild
+UITextSizeConstraint_15.MaxTextSize = 15
 
-UIAspectRatioConstraint_22.Parent = Infiniteyeild
-UIAspectRatioConstraint_22.AspectRatio = 4.350
+UIAspectRatioConstraint_21.Parent = Infiniteyeild
+UIAspectRatioConstraint_21.AspectRatio = 4.350
 
 Dex.Name = "Dex"
 Dex.Parent = ScrollingFrame
@@ -634,15 +611,38 @@ Dex.TextScaled = true
 Dex.TextSize = 14.000
 Dex.TextWrapped = true
 
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_18.Parent = Dex
+
+UICorner_18.Parent = Dex
+
+UITextSizeConstraint_16.Parent = Dex
+UITextSizeConstraint_16.MaxTextSize = 15
+
+UIAspectRatioConstraint_22.Parent = Dex
+UIAspectRatioConstraint_22.AspectRatio = 4.350
+
+CMDX.Name = "CMDX"
+CMDX.Parent = ScrollingFrame
+CMDX.BackgroundColor3 = Color3.fromRGB(83, 83, 83)
+CMDX.Position = UDim2.new(0.0617283732, 0, 0.0452261344, 0)
+CMDX.Size = UDim2.new(0.268518507, 0, 0.100502513, 0)
+CMDX.Font = Enum.Font.SourceSans
+CMDX.Text = "CMDX FE admin"
+CMDX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.TextScaled = true
+CMDX.TextSize = 14.000
+CMDX.TextWrapped = true
+
 UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 85, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
-UIGradient_19.Parent = Dex
+UIGradient_19.Parent = CMDX
 
-UICorner_19.Parent = Dex
+UICorner_19.Parent = CMDX
 
-UITextSizeConstraint_17.Parent = Dex
+UITextSizeConstraint_17.Parent = CMDX
 UITextSizeConstraint_17.MaxTextSize = 15
 
-UIAspectRatioConstraint_23.Parent = Dex
+UIAspectRatioConstraint_23.Parent = CMDX
 UIAspectRatioConstraint_23.AspectRatio = 4.350
 
 Splash.Name = "Splash"
@@ -688,7 +688,7 @@ UIAspectRatioConstraint_25.AspectRatio = 1.327
 
 -- Scripts:
 
-local function EALEB_fake_script() -- fullscreen.LocalScript 
+local function IGDKZ_fake_script() -- fullscreen.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen)
 
 	local frame = script.Parent.Parent.Parent.Frame
@@ -700,8 +700,8 @@ local function EALEB_fake_script() -- fullscreen.LocalScript
 	frame.Visible = true
 	end)
 end
-coroutine.wrap(EALEB_fake_script)()
-local function IALTAQ_fake_script() -- Frame.Dragify 
+coroutine.wrap(IGDKZ_fake_script)()
+local function XMDVJ_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -744,8 +744,8 @@ local function IALTAQ_fake_script() -- Frame.Dragify
 		end
 	end)
 end
-coroutine.wrap(IALTAQ_fake_script)()
-local function COKCP_fake_script() -- fullscreen_exit.LocalScript 
+coroutine.wrap(XMDVJ_fake_script)()
+local function VICU_fake_script() -- fullscreen_exit.LocalScript 
 	local script = Instance.new('LocalScript', fullscreen_exit)
 
 	local frame = script.Parent.Parent
@@ -757,8 +757,8 @@ local function COKCP_fake_script() -- fullscreen_exit.LocalScript
 	frame.Visible = false
 	end)
 end
-coroutine.wrap(COKCP_fake_script)()
-local function YSUWVG_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(VICU_fake_script)()
+local function NZBEJ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -771,8 +771,8 @@ local function YSUWVG_fake_script() -- TextButton.LocalScript
 		
 	end)
 end
-coroutine.wrap(YSUWVG_fake_script)()
-local function KKWPX_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(NZBEJ_fake_script)()
+local function BQMRU_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local frames = script.Parent.Parent.Parent.Fms:GetChildren()
@@ -785,8 +785,8 @@ local function KKWPX_fake_script() -- TextButton_2.LocalScript
 		
 	end)
 end
-coroutine.wrap(KKWPX_fake_script)()
-local function CFVQ_fake_script() -- set_wlk.LocalScript 
+coroutine.wrap(BQMRU_fake_script)()
+local function MPEHPO_fake_script() -- set_wlk.LocalScript 
 	local script = Instance.new('LocalScript', set_wlk)
 
 	local player = game.Players.LocalPlayer
@@ -798,8 +798,8 @@ local function CFVQ_fake_script() -- set_wlk.LocalScript
 		humanoid.WalkSpeed = script.Parent.Parent.Wlk_input.Text
 	end)
 end
-coroutine.wrap(CFVQ_fake_script)()
-local function SZAWMP_fake_script() -- set_jmp.LocalScript 
+coroutine.wrap(MPEHPO_fake_script)()
+local function XIZSZEV_fake_script() -- set_jmp.LocalScript 
 	local script = Instance.new('LocalScript', set_jmp)
 
 	local player = game.Players.LocalPlayer
@@ -811,8 +811,8 @@ local function SZAWMP_fake_script() -- set_jmp.LocalScript
 		humanoid.JumpPower = script.Parent.Parent.jmp_input.Text
 	end)
 end
-coroutine.wrap(SZAWMP_fake_script)()
-local function VMEA_fake_script() -- tele_to_plr.LocalScript 
+coroutine.wrap(XIZSZEV_fake_script)()
+local function NRERDEZ_fake_script() -- tele_to_plr.LocalScript 
 	local script = Instance.new('LocalScript', tele_to_plr)
 
 	local player = game.Players.LocalPlayer
@@ -831,8 +831,8 @@ local function VMEA_fake_script() -- tele_to_plr.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VMEA_fake_script)()
-local function QKQUJJJ_fake_script() -- Frame_3.LocalScript 
+coroutine.wrap(NRERDEZ_fake_script)()
+local function IUZHDRJ_fake_script() -- Frame_3.LocalScript 
 	local script = Instance.new('LocalScript', Frame_3)
 
 	local img = script.Parent.ImageLabel
@@ -847,8 +847,8 @@ local function QKQUJJJ_fake_script() -- Frame_3.LocalScript
 	
 	img.Image = content
 end
-coroutine.wrap(QKQUJJJ_fake_script)()
-local function QVCV_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(IUZHDRJ_fake_script)()
+local function HUJZ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local gui = script.Parent.Parent.Parent.Parent.Parent
@@ -857,27 +857,37 @@ local function QVCV_fake_script() -- TextButton_3.LocalScript
 		gui:Destroy()
 	end)
 end
-coroutine.wrap(QVCV_fake_script)()
-local function DKJFJ_fake_script() -- CMDX.LocalScript 
-	local script = Instance.new('LocalScript', CMDX)
-
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
-	
-end
-coroutine.wrap(DKJFJ_fake_script)()
-local function AJZVRQD_fake_script() -- Infiniteyeild.LocalScript 
+coroutine.wrap(HUJZ_fake_script)()
+local function ZFAQPGA_fake_script() -- Infiniteyeild.LocalScript 
 	local script = Instance.new('LocalScript', Infiniteyeild)
 
-	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Infinite%20Yield.txt"))()
+	end)
 end
-coroutine.wrap(AJZVRQD_fake_script)()
-local function KFTSCX_fake_script() -- Dex.LocalScript 
+coroutine.wrap(ZFAQPGA_fake_script)()
+local function AMZMM_fake_script() -- Dex.LocalScript 
 	local script = Instance.new('LocalScript', Dex)
 
-	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt"))()
+	end)
+	
+	
 end
-coroutine.wrap(KFTSCX_fake_script)()
-local function VMOA_fake_script() -- TextLabel_5.LocalScript 
+coroutine.wrap(AMZMM_fake_script)()
+local function TDUGWE_fake_script() -- CMDX.LocalScript 
+	local script = Instance.new('LocalScript', CMDX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+	end)
+	
+	
+end
+coroutine.wrap(TDUGWE_fake_script)()
+local function UIIUJLY_fake_script() -- TextLabel_5.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_5)
 
 	local plrname = game.Players.LocalPlayer
@@ -887,8 +897,8 @@ local function VMOA_fake_script() -- TextLabel_5.LocalScript
 	
 	script.Parent.Text = "Welcome "..plrname.Name
 end
-coroutine.wrap(VMOA_fake_script)()
-local function TQEWJ_fake_script() -- Splash.LocalScript 
+coroutine.wrap(UIIUJLY_fake_script)()
+local function BTLGR_fake_script() -- Splash.LocalScript 
 	local script = Instance.new('LocalScript', Splash)
 
 	local frame = script.Parent
@@ -904,4 +914,4 @@ local function TQEWJ_fake_script() -- Splash.LocalScript
 	until frame.BackgroundTransparency >= 0.5
 	frame:Destroy()
 end
-coroutine.wrap(TQEWJ_fake_script)()
+coroutine.wrap(BTLGR_fake_script)()
